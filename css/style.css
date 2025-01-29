@@ -1,0 +1,263 @@
+/* General Styles */
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
+/* Nav Styles */
+nav {
+    font-family: 'Geist', sans-serif;
+    display: flex;
+    background-color: #a39b83;
+    border: solid 2.5px black;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p, nav a {
+    font-family: 'Geist', sans-serif;
+    font-size: 1.25em;
+    margin: 0px;
+}
+
+nav a {
+    color: darkcyan; 
+    text-decoration: none;
+}
+
+nav a:hover { color: darkgreen; }
+
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #a39b83;
+    border: solid 2.5px black;
+    padding: 20px;
+}
+
+footer p {
+    font-family: 'Geist', sans-serif;
+    font-size: 1.5em;
+}
+
+footer a {
+    font-family: 'Geist', sans-serif;
+    font-size: 1.5em;
+    color: darkcyan; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: darkgreen;
+}
+
+
+/* Splash Section */
+.splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dedddd;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.splash h1 {
+    font-family: 'Yatra One', sans-serif;
+    color: darkcyan;
+    font-size: 3.5em;
+}
+
+.splash img {
+    border-radius: 50%;
+    width: 200px; 
+    height: 250px; 
+    margin-bottom: 20px;
+}
+
+.splash address {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.splash p {
+    font-family: 'Geist', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 80%;
+}   
+
+
+/* Horizontal Rules */
+hr {
+    border: solid 5px black;
+    margin-top: 0px;
+}
+
+
+/* Sections */
+section {
+    padding: 50px;
+}
+
+.honors {
+    background-color: #dedddd;
+}
+
+.experience {
+    background-color: #dedddd;
+    
+}
+
+
+/* Section Headings */
+section h2 {
+    font-family: 'Baskervville', sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* Paragraph Styles */
+section p {
+    font-family: 'Geist', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* link styles */
+section a {
+    color: darkcyan; 
+    text-decoration: none;
+}
+
+section a:hover { color: darkgreen; }
+
+
+/* list styles */
+ul {
+    font-family: 'Geist', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+dl { 
+    display: grid;
+    font-family: 'Geist', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+dl dt {
+    font-weight: bold;
+    font-family: 'Arvo', sans-serif;
+}
+
+dl dd {
+    font-style: italic;
+}
+
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.card h3 {
+    text-align: center;
+    font-family: 'Arvo', sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    padding-right: 5px;
+}
+
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one-col h1 {
+    font-family: 'Yatra One', sans-serif;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.one-col p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    margin-bottom:50px;
+    text-align: center;
+}
+
+.one-col input, .one-col textarea, .one-col form, .one-col button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Geist', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.one-col button:hover {
+    background-color: lightgray;
+}
+
+/* Thank You Page Styles */
+.thank-you {
+    text-align: center;
+}
+
+.thank-you h1 {
+    font-family: 'Yatra One', sans-serif;
+    font-size: 3.5em;
+}
+
+.thank-you p {
+    font-family: 'Geist', sans-serif;
+    font-size: 2em;
+}
+
+.thank-you a {
+    font-family: 'Geist', sans-serif;
+    font-size: 2em;
+
+}
