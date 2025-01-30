@@ -131,7 +131,7 @@ section h2 {
 /* Paragraph Styles */
 section p {
     font-family: 'Geist', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -149,17 +149,16 @@ section a:hover { color: darkgreen; }
 /* list styles */
 ul {
     font-family: 'Geist', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
-dl { 
-    display: grid;
+dl {
     font-family: 'Geist', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 dl dt {
@@ -198,12 +197,13 @@ dl dd {
 .card h3 {
     text-align: center;
     font-family: 'Arvo', sans-serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
 
 .card ul {
     padding-right: 5px;
+    text-align: left;
 }
 
 
