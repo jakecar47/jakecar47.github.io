@@ -65,8 +65,9 @@ footer a:hover {
     align-items: center;
     background-color: #dedddd;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .splash h1 {
@@ -77,8 +78,8 @@ footer a:hover {
 
 .splash img {
     border-radius: 50%;
-    width: 200px; 
-    height: 250px; 
+    max-height: 324.5px;
+    max-width: 302.2px;
     margin-bottom: 20px;
 }
 
@@ -127,7 +128,13 @@ section h2 {
     text-align: center;
 }
 
-
+section h4 {
+    font-family: 'Geist', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
 /* Paragraph Styles */
 section p {
     font-family: 'Geist', sans-serif;
@@ -261,3 +268,18 @@ dl dd {
     font-size: 2em;
 
 }
+
+/* Media queries for smaller screens */
+@media (max-width: 600px) {
+    .splash h1 {
+      font-size: 2.5em;
+    }
+  
+    .splash address {
+      font-size: 1.5em;
+    }
+  
+    .splash p {
+      font-size: 1.2em;
+    }
+  }
