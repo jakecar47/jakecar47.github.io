@@ -78,8 +78,8 @@ footer a:hover {
 
 .splash img {
     border-radius: 50%;
-    max-height: 324.5px;
-    max-width: 302.2px;
+    height: auto;
+    width: 300px;
     margin-bottom: 20px;
 }
 
