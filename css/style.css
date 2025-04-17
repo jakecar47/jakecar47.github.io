@@ -129,9 +129,9 @@ section h2 {
 }
 
 section h4 {
-    font-family: 'Geist', sans-serif;
+    font-family: 'Arvo', sans-serif;
     font-size: 1em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
 }
@@ -188,6 +188,7 @@ dl dd {
 
 .card {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
     transition: 0.3s;
     background-color: white;
     display: flex;
@@ -199,7 +200,7 @@ dl dd {
 .card img {
     width: 100px;
     height: 100px;
-    padding: 5px;
+    padding: 20px;
 }
 
 .card h3 {
@@ -209,8 +210,14 @@ dl dd {
     margin-bottom: 20px;
 }
 
+.card li {
+    font-family: 'Geist', sans-serif;
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
 .card ul {
-    padding-right: 5px;
+    padding-right: 20px;
 }
 
 
