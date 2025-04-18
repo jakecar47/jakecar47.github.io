@@ -1,9 +1,17 @@
 /* General Styles */
+html,
 body {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -12,24 +20,26 @@ nav {
     font-family: 'Geist', sans-serif;
     display: flex;
     background-color: #a39b83;
-    border: solid 2.5px black;
     padding: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
-nav p, nav a {
+nav p,
+nav a {
     font-family: 'Geist', sans-serif;
     font-size: 1.25em;
     margin: 0px;
 }
 
 nav a {
-    color: darkcyan; 
+    color: darkcyan;
     text-decoration: none;
 }
 
-nav a:hover { color: darkgreen; }
+nav a:hover {
+    color: darkgreen;
+}
 
 
 /* Footer Styles */
@@ -37,7 +47,6 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #a39b83;
-    border: solid 2.5px black;
     padding: 20px;
 }
 
@@ -48,8 +57,8 @@ footer p {
 
 footer a {
     font-family: 'Geist', sans-serif;
-    font-size: 1.25em;
-    color: darkcyan; 
+    font-size: 1.5em;
+    color: darkcyan;
     text-decoration: none;
 }
 
@@ -96,14 +105,16 @@ footer a:hover {
     text-align: center;
     font-size: 1.25em;
     max-width: 80%;
-}   
+}
 
 
 /* Horizontal Rules */
 hr {
-    border: solid 5px black;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    margin: 0;
 }
 
 
@@ -118,7 +129,7 @@ section {
 
 .experience {
     background-color: #dedddd;
-    
+
 }
 
 
@@ -149,11 +160,13 @@ section p {
 
 /* link styles */
 section a {
-    color: darkcyan; 
+    color: darkcyan;
     text-decoration: none;
 }
 
-section a:hover { color: darkgreen; }
+section a:hover {
+    color: darkgreen;
+}
 
 
 /* list styles */
@@ -164,7 +177,7 @@ ul {
     text-align: center;
 }
 
-dl { 
+dl {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +188,8 @@ dl {
     text-align: center;
 }
 
-dl dt, dl dd {
+dl dt,
+dl dd {
     text-align: center;
 }
 
@@ -200,7 +214,7 @@ dl dd {
 }
 
 .card {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     transition: 0.3s;
     background-color: white;
@@ -229,6 +243,7 @@ dl dd {
     font-size: 1em;
     margin-bottom: 5px;
 }
+
 .card ul {
     padding-right: 20px;
 }
@@ -250,11 +265,14 @@ dl dd {
 .one-col p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
-    margin-bottom:50px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
-.one-col input, .one-col textarea, .one-col form, .one-col button {
+.one-col input,
+.one-col textarea,
+.one-col form,
+.one-col button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -292,14 +310,14 @@ dl dd {
 /* Media queries for smaller screens */
 @media (max-width: 600px) {
     .splash h1 {
-      font-size: 2.5em;
+        font-size: 2.5em;
     }
-  
+
     .splash address {
-      font-size: 1.5em;
+        font-size: 1.5em;
     }
-  
+
     .splash p {
-      font-size: 1.2em;
+        font-size: 1.2em;
     }
-  }
+}
