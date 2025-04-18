@@ -43,12 +43,12 @@ footer {
 
 footer p {
     font-family: 'Geist', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 footer a {
     font-family: 'Geist', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: darkcyan; 
     text-decoration: none;
 }
@@ -278,7 +278,7 @@ dl dd {
 
 .thank-you p {
     font-family: 'Geist', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .thank-you a {
