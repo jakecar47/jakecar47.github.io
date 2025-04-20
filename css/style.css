@@ -23,6 +23,7 @@ nav {
     padding: 20px;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid black;
 }
 
 nav p,
@@ -48,6 +49,7 @@ footer {
     justify-content: center;
     background-color: #a39b83;
     padding: 20px;
+    border-top: 3px solid black;
 }
 
 footer p {
@@ -170,7 +172,7 @@ section a:hover {
 }
 
 
-/* list styles */
+/* List styles */
 ul {
     font-family: 'Geist', sans-serif;
     font-size: 1em;
@@ -269,6 +271,8 @@ dl dd {
     margin-bottom: 50px;
     text-align: center;
 }
+
+
 
 .one-col input,
 .one-col textarea,
