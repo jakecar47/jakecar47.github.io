@@ -237,9 +237,17 @@ dl dd {
     text-align: center;
     font-family: 'Arvo', sans-serif;
     font-size: 1.25em;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
+.card h4 {
+    font-family: 'Arvo', sans-serif;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-style: italic;
+    color: darkcyan;
+}
 .card li {
     font-family: 'Geist', sans-serif;
     text-align: left;
